@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LibreFranklin-Medium';
+  src: url('/Libre_Franklin/static/LibreFranklin-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreFranklin-Regular';
+  src: url('/Libre_Franklin/static/LibreFranklin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-custom-h1 {
+  font-family: 'LibreFranklin-Medium', sans-serif;
+}
+
+.font-custom-h2 {
+  font-family: 'LibreFranklin-Regular', sans-serif;
+}
